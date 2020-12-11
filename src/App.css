@@ -1,0 +1,185 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  font-family: system-ui;
+  font-weight: 200;
+  color:	#3e5869; 
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@media only screen and (max-device-width: 800px){
+  html, body{
+      height: 100%;
+      margin: 0%;
+  }
+}
+
+/* Styling for the empty header component */
+.header{
+  background-color: black;
+  border-style: solid;
+  height: 13%;
+  width: 100%;
+  border-color: black;
+  padding-left: 3%;
+}
+
+/* Styling of the div that holds username and description of the messager */
+.status{
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  height: 8%;
+  padding-left: 3%;
+}
+
+/* Placeholder for the Design in the header */
+.LC{
+  color: white;
+  font-size: 50px;
+
+}
+
+@media only screen and (max-device-width: 800px){
+  .LC{
+    font-size: 100px;
+  }
+}
+
+/* Styling for the div of input bar and 'send' button */
+.reply{
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 1%;
+  border-style: none;
+  height: 7.2%;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Styling of input button */
+.send{
+  height: 40px;
+  border-style: none;
+  background-color: black;
+}
+
+/* Styling of the 'send' button */
+.fa-arrow-alt-circle-right{
+  color:  rgb(100, 100, 100);
+  font-size: 50px;
+}
+
+@media only screen and (max-device-width: 800px){
+  .fa-arrow-alt-circle-right{
+    font-size: 90px;
+  }
+}
+
+.fa-arrow-alt-circle-right:hover{
+  color: orange;
+}
+
+/* More styling of input bar */
+input {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: white;
+  border-radius: 25px;
+  border-style: none;
+  font-weight: 200;
+  outline: none;
+}
+
+@media only screen and (max-device-width: 800px){
+  input{
+    width: 100%;
+    font-size: xx-large;
+    padding-top: 3%;
+    padding: 25px 10px;
+  }
+}
+
+/* Styling of the name of person you sending messages to*/
+.userName{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-device-width: 800px){
+  .userName{
+    font-size: 60px
+  }
+}
+
+/* Styling of the description of person you sending messages to*/
+.description{
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-device-width: 800px){
+  .description{
+    font-size: 50px
+  }
+}
+
+/* Styling of the text messages recieved */
+.message .messageText {
+  background: black;
+  color: white;
+  display: inline;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: large;
+}
+
+@media only screen and (max-device-width: 800px){
+  .message .messageText{
+    font-size: xx-large;
+  }
+}
+
+/* Styling of the text messages recieved */
+.message{
+  padding-top: 30px;
+}
+
+/* Styling of the div that holds messages */
+.message-list {
+  padding-left: 3%;
+  width: 100%;
+  height: 72%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.row{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+}
+
+.reply {
+  display: grid;
+  grid-template-columns: auto 80px;
+}
+
+.reply > div {
+  background-color:black;
+}
+
+@media only screen and (max-device-width: 800px){
+  .reply {
+    display: grid;
+    grid-template-columns: auto 80px;
+  }
+  
+  .reply > div {
+    background-color:black;
+  }
+}
+
